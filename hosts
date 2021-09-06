@@ -6,6 +6,7 @@ ansible_ssh_user=opc
 
 [oci_host2:vars]
 ansible_ssh_private_key_file=ssh-key-2021-09-02.key
+ansible_python_interpreter=/usr/bin/python3
 
 [oci_host2]
 130.61.243.173
